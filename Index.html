@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h2>Cyber Security Glossary Reference</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for terms.." title="Type in a term">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:30%;">Term</th>
+    <th style="width:60%;">Definition</th>    <th style="width:10%;">DeepDiveLinks</th>
+  </tr>
+<tr><td>AAA Server</td><td>The AAA server is used to establish secure access in a remote-access VPN environment.</td></tr>
+<tr><td>ANT</td><td>It is a wireless sensor protocol that enables communication between sensors and their controllers.</td></tr>
+<tr><td>Access Control</td><td>Access control is the selective restriction of access to an asset or a system/network resource.</td></tr>
+<tr><td>Access point (AP)</td><td>Used to connect wireless devices to a wireless/wired network.</td></tr>
+<tr><td>Accounting</td><td>Accounting is a method of keeping track of user actions on the network. It keeps track of who, when, and how the users access the network.</td></tr>
+<tr><td>Administrative Security Controls</td><td>Administrative security controls are management limitations, operational and accountability procedures, and other controls that ensure the security of an organization.</td></tr>
+<tr><td>Advanced Encryption Standard (AES)</td><td>The AES is a National Institute of Standards and Technology (NIST) specification for the encryption of electronic data.</td></tr>
+<tr><td>Alarm System</td><td>Alarms are used to draw attention when there is a breach or during an attempt of breach.</td></tr>
+<tr><td>Alert Systems</td><td>An alert system sends an alert message when any anomaly or misuse is detected.</td></tr>
+<tr><td>Alert</td><td>An alert is a graduated event that notifies that a particular event (or series of events) has reached a specified threshold and needs appropriate action by a responsible party.</td></tr>
+<tr><td>Anomaly Detection</td><td>It detects the intrusion based on the fixed behavioral characteristics of the users and components in a computer system.</td></tr>
+<tr><td>Anomaly-based Detection</td><td>The anomaly-based detection process depends on observing and comparing the observed events with the normal behavior and then detecting any deviation from it.</td></tr>
+<tr><td>Anonymous Proxy</td><td>An anonymous proxy does not transfer information about the IP address of its user, thereby hiding information about the user and their surfing interests.</td></tr>
+<tr><td>Antenna</td><td>Converts electrical impulses into radio waves and vice versa.</td></tr>
+<tr><td>Anything-as-a-Service (XaaS)</td><td>Anything as a service (XaaS) is a cloud-computing and remote-access service that offers anything as a service over the Internet based on the user’s demand.</td></tr>
+<tr><td>Application Containers</td><td>These are containers used to run a single service. They have layered file systems and are built on top of OS container technologies.</td></tr>
+<tr><td>Application Level Gateways</td><td>Application level gateways can filter packets at the application layer of the OSI model.</td></tr>
+<tr><td>Application Proxy</td><td>An application-level proxy works as a proxy server and filters connections for specific services.</td></tr>
+<tr><td>Association</td><td>It refers to the process of connecting a wireless device to an AP.</td></tr>
+<tr><td>Asymmetric Encryption</td><td>Asymmetric encryption uses two separate keys to carry out encryption and decryption.</td></tr>
+<tr><td>Audit Trails</td><td>An audit trail is a set of records that provide documentary evidence of a system’s activity.</td></tr>
+<tr><td>Authentication</td><td>Ensures the identity of an individual is verified by the system or service.</td></tr>
+<tr><td>Authorization</td><td>Authorization refers to the process of providing permission to access the resources or perform an action on the network.</td></tr>
+<tr><td>Availability</td><td>Ensures information is available to authorized parties without any disruption.</td></tr>
+<tr><td>Bandwidth</td><td>It describes the amount of information that may be broadcast over a connection.</td></tr>
+<tr><td>Basic Service Set Identifier (BSSID)</td><td>It is the media access control (MAC) address of an access point (AP) or base station that has set up a basic service set (BSS).</td></tr>
+<tr><td>Bastion Host</td><td>A bastion host is a computer system designed and configured to protect network resources from attacks.</td></tr>
+<tr><td>Behavior-based IDS</td><td>Behavior-based intrusion detection techniques assume an intrusion can be detected by observing a deviation from normal or expected behavior of the system or users.</td></tr>
+<tr><td>Biometric Authentication</td><td>Biometrics is a technology which identifies human characteristics for authenticating people.</td></tr>
+<tr><td>Biometrics</td><td>Biometrics is an advanced and unique security technology that utilizes an individual’s physical attributes such as fingerprint, iris, face, voice, and behavior for verifying their identity.</td></tr>
+<tr><td>Bluetooth</td><td>In the Bluetooth technology, data is transmitted between cell phones, computers, and other networking devices over short distances.</td></tr>
+<tr><td>Bollards</td><td>A bollard may be defined as a short vertical post which controls and restricts motor vehicles to the parking areas, offices etc.</td></tr>
+<tr><td>Bring Your Own Device (BYOD)</td><td>BYOD refers to a policy that allows employees to bring their devices such as laptops, smartphones, and tablets to the workplace. Business Critical Data: Business critical data contains information that is important for business operation.</td></tr>
+<tr><td>5G Cellular (Mobile) Communication</td><td>It is a broadband cellular network that operates at high bandwidth with low latency and provides high-speed data downloads.</td></tr>
+<tr><td>CCMP</td><td>An encryption protocol used in WPA2 for stronger encryption and authentication.</td></tr>
+<tr><td>Cellular Communication</td><td>Cellular communication is based on a single network tower that serves devices located within a specific radius.</td></tr>
+<tr><td>Centralized Authorization</td><td>It maintains a single database for authorizing all the network resources or applications.</td></tr>
+<tr><td>Centralized IDS</td><td>In a centralized system, the data is gathered from different sites to a central site.</td></tr>
+<tr><td>Certification Authorities</td><td>Certification authorities (CAs) are trusted entities that issue digital certificates.</td></tr>
+<tr><td>Choose Your Own Device (CYOD)</td><td>CYOD refers to a policy in the employees select their device of choice from a pre-approved set of devices (laptops, smartphones, and tablets) to access company data according to the access privileges of an organization.</td></tr>
+<tr><td>Ciphers</td><td>A cipher is an algorithm for performing encryption and decryption.</td></tr>
+<tr><td>Circuit-Level Gateway</td><td>Circuit level gateways work at the session layer of the OSI model, or the TCP layer of TCP/IP.</td></tr>
+<tr><td>Client-to-Site (Remote-access) VPNs</td><td>Remote-Access VPNs allow individual hosts or clients, such as telecommuters and mobile users to establish secure connections to a company’s network over the Internet.</td></tr>
+<tr><td>Cloud Auditor</td><td>A cloud auditor is a party that performs an independent examination of cloud service controls to express an opinion thereon.</td></tr>
+<tr><td>Cloud Broker</td><td>An entity that manages cloud services in terms of use, performance, and delivery, and maintains the relationship between cloud providers and consumers.</td></tr>
+<tr><td>Cloud Carrier</td><td>A cloud carrier acts as an intermediary that provides connectivity and transport services between CSPs and cloud consumers.</td></tr>
+<tr><td>Cloud Computing</td><td>Cloud computing is an on-demand delivery of IT capabilities where IT infrastructure and applications are provided to subscribers as a metered service over a network.</td></tr>
+<tr><td>Cloud Consumer</td><td>A person or organization that uses cloud computing services.</td></tr>
+<tr><td>Cloud Data Backup</td><td>Storing backup data on storage provided by an online backup provider.</td></tr>
+<tr><td>Cloud Layer</td><td>Servers hosted in the cloud accept, store, and process the sensor data received from IoT gateways.</td></tr>
+<tr><td>Cloud Platform</td><td>In an IoT ecosystem, the cloud component is referred to as the central aggregation and data management point.</td></tr>
+<tr><td>Cloud Provider</td><td>A person or organization providing services to interested parties via network access.</td></tr>
+<tr><td>Cloud Storage</td><td>Cloud storage is a data storage medium used to store digital data in logical pools using a network.</td></tr>
+<tr><td>Cloud-to-Cloud (Back-End Data-Sharing) Communication Model</td><td>This type of communication model extends the device-to-cloud communication type such that the data from the IoT devices can be accessed by authorized third parties.</td></tr>
+<tr><td>Combination Locks</td><td>It has a combination of numbers and letters. The user needs to provide the combination to open the lock.</td></tr>
+<tr><td>Command Console</td><td>It provides a user interface to an administrator for the purpose of receiving and analyzing security events, alert message, and log files.</td></tr>
+<tr><td>Communication Layer</td><td>The communication (connectivity/edge computing) layer includes the components of communication protocols and networks used for connectivity and edge computing.</td></tr>
+<tr><td>Community Cloud</td><td>Shared infrastructure between several organizations from a specific community with common concerns (security, compliance, jurisdiction, etc.).</td></tr>
+<tr><td>Company Owned, Business Only (COBO)</td><td>Company Owned, Business Only (COBO) refers to a policy that allows employees to use and manage the devices purchased by the organization but restrict the use of the device for business use only.</td></tr>
+<tr><td>Compensating Controls</td><td>These controls are used as an alternative control when the intended controls fail or cannot be used.</td></tr>
+<tr><td>Computer Fraud and Abuse Act</td><td>States that, whoever intentionally accesses a computer without authorization or exceeds authorized access, and thereby obtains information from any protected computer, and if the conduct involves an interstate or foreign communication, shall be punished under the Act.</td></tr>
+<tr><td>Confidentiality</td><td>Ensures information is not disclosed to unauthorized parties</td></tr>
+<tr><td>Container</td><td>Containers refer to virtualization based on an operating system, in which the kernel’s operating system functionality is replicated on multiple instances of isolated user space.</td></tr>
+<tr><td>Container-as-a-Service (CaaS)</td><td>This cloud computing model provides containers and clusters as a service to its subscribers.</td></tr>
+<tr><td>Containerization</td><td>Containerization is a technique in which all personal and organizational data are segregated on an employee’s mobile device.</td></tr>
+<tr><td>Context-aware Authentication</td><td>Context-aware authentication is a type of enhanced security technique that uses the contextual information of a user for enhancing data security decisions.</td></tr>
+<tr><td>Contraband</td><td>Contraband includes materials that are banned from entering the environment such as explosives, bombs, weapons, etc.</td></tr>
+<tr><td>Corporate Owned, Personally Enabled (COPE)</td><td>Corporate Owned, Personally Enabled (COPE) refers to a policy that allows employees to use and manage the devices purchased by the organizations.</td></tr>
+<tr><td>Cross-Container Attacks</td><td>Gaining access to a container and utilizing it to attack other containers of the same host or within the local network.</td></tr>
+<tr><td>Cryptography</td><td>Cryptography is the practice of concealing information by converting plaintext (readable format) into cipher text (unreadable format) using a key or encryption scheme.</td></tr>
+<tr><td>Data Access Control</td><td>Data access controls enable authentication and authorization of users to access the data.</td></tr>
+<tr><td>Data Backup Strategy</td><td>An ideal backup strategy includes steps ranging from selecting the right data to conducting a test data restoration drill.</td></tr>
+<tr><td>Data Backup</td><td>Data backup is the process of making a duplicate copy of critical data, such as physical (paper) and computer records.</td></tr>
+<tr><td>Data Destruction</td><td>It involves destroying the data so that it cannot be recovered and used for a wrong motive.</td></tr>
+<tr><td>Data Encryption Standard (DES)</td><td>DES is designed to encipher and decipher blocks of data consisting of 64 bits under control of a 56-bit key.</td></tr>
+<tr><td>Data Encryption</td><td>Protecting information by transforming it so that it becomes unreadable for an unauthorized party.</td></tr>
+<tr><td>Data Loss Prevention (DLP)</td><td>DLP includes a set of software products and processes that do not allow users to send confidential corporate data outside the organization.</td></tr>
+<tr><td>Data Masking</td><td>Protecting information by obscuring specific areas of data with random characters or codes.</td></tr>
+<tr><td>Data Protection Act 2018 (DPA)</td><td>The DPA is an act to make provision for the regulation of the processing of information relating to individuals.</td></tr>
+<tr><td>Data Resilience and Backup</td><td>Making a duplicate copy of critical data to be used for restoring and recovery purposes.</td></tr>
+<tr><td>Data Retention</td><td>Storing data securely for compliance or business requirements.</td></tr>
+<tr><td>Data Security</td><td>Data security involves the application of various data security controls to prevent any intentional or unintentional act of data misuse, data destruction, and data modification.</td></tr>
+<tr><td>Database Honeypots</td><td>Database honeypots employ fake databases that are vulnerable to perform database-related attacks such as SQL injection and database enumeration.</td></tr>
+<tr><td>Decentralized Authorization</td><td>A decentralized authorization maintains a separate database for each resource.</td></tr>
+<tr><td>Demilitarized Zone (DMZ)</td><td>A computer subnetwork is placed between the organization’s private network such as a LAN, and an outside public network such as the Internet, and acts as an additional security layer.</td></tr>
+<tr><td>Denial of Service Traffic Signatures</td><td>Traffic containing certain signatures that indicate a DoS attempt that floods a server with a large number of requests.</td></tr>
+<tr><td>Detection Controls</td><td>These are used to detect unauthorized access attempts.</td></tr>
+<tr><td>Detective Controls</td><td>These controls detect security violations and record any intrusion attempts.</td></tr>
+<tr><td>Deterrence Controls</td><td>These are used to discourage the violation of security policies.</td></tr>
+<tr><td>Device Layer</td><td>The device or thing layer of IoT includes the hardware that constitutes IoT devices.</td></tr>
+<tr><td>Device-to-Cloud Communication</td><td>In this type of communication, devices communicate with the cloud directly, rather than directly communicating with the client to send or receive data or commands.</td></tr>
+<tr><td>Device-to-Device Communication</td><td>In this type of communication, inter-connected devices interact with each other through the Internet, but they predominantly use protocols such as ZigBee, Z-Wave or Bluetooth.</td></tr>
+<tr><td>Device-to-Gateway Communication</td><td>In the device-to-gateway communication model, the IoT device communicates with an intermediate device called a gateway, which in turn communicates with the cloud service.</td></tr>
+<tr><td>Differential Data Backup</td><td>All data that has been changed since the last full backup is copied to the backup media.</td></tr>
+<tr><td>Digital Certificates</td><td>Digital certificates allow a secure exchange of information between a sender and a receiver.</td></tr>
+<tr><td>Digital Locks</td><td>Digital locks use fingerprint, smart card or a PIN on the keypad to unlock.</td></tr>
+<tr><td>Digital Signature Algorithm (DSA)</td><td>The digital signature algorithm (DSA) is a Federal Information Processing Standard (FIPS) for digital signatures.</td></tr>
+<tr><td>Digital Signature</td><td>Digital signatures use the asymmetric key algorithms to provide data integrity.</td></tr>
+<tr><td>Dipole Antenna</td><td>A dipole antenna is a straight electrical conductor measuring half a wavelength from end to end, and it is connected at the center of the radio frequency (RF) feed line.</td></tr>
+<tr><td>Direct-sequence Spread Spectrum (DSSS)</td><td>DSSS is a spread spectrum technique that multiplies the original data signal with a pseudo-random noise-spreading code.</td></tr>
+<tr><td>Directional Antenna</td><td>A directional antenna can broadcast and receive radio waves from a single direction.</td></tr>
+<tr><td>Discretionary Access Control (DAC)</td><td>DAC determines the access control taken by any possessor of an object in order to decide the access control of a subject on that object.</td></tr>
+<tr><td>Disk Encryption</td><td>Encryption of data stored in a physical or logical disk.</td></tr>
+<tr><td>Distributed IDS</td><td>A distributed intrusion detection system (dIDS) consists of multiple IDSs over a large network.</td></tr>
+<tr><td>Docker Networking</td><td>The Docker networking architecture is developed on a set of interfaces known as container network model (CNM). CNM provides application portability across heterogeneous infrastructures.</td></tr>
+<tr><td>Docker Registry Attacks</td><td>Gaining access to the docker registry.</td></tr>
+<tr><td>Docker</td><td>Docker is an open source technology used for developing, packaging, and running applications and all its dependencies in the form of containers, to ensure that the application works in a seamless environment.</td></tr>
+<tr><td>Dual Firewall DMZ</td><td>The dual firewall approach uses two firewalls to create a DMZ.</td></tr>
+<tr><td>EAP</td><td>The Extensible Authentication Protocol (EAP) supports multiple authentication methods, such as token cards, Kerberos, and certificates.</td></tr>
+<tr><td>EDGE</td><td>The edge is the main physical device in the IoT ecosystem that interacts with its surroundings and contains various components like sensors, actuators, operating systems, hardware and network, and communication capabilities.</td></tr>
+<tr><td>Electric/Electromagnetic Locks</td><td>Electric locks or an electronic locking system operates on an electric current.</td></tr>
+<tr><td>Electromagnetic Interference (EMI)</td><td>EMI occurs when electronic device’s performance is interrupted or degraded due to electromagnetic radiation or conduction.</td></tr>
+<tr><td>Email Honeypots</td><td>Email honeypots are also called email traps. They are nothing but fake email addresses that are specifically used to attract fake and malicious emails from adversaries.</td></tr>
+<tr><td>Encapsulation</td><td>Encapsulation is the method in which protocols have separate functions to communicate among each other by hiding the data.</td></tr>
+<tr><td>Encryption</td><td>Encryption is the practice of concealing information by converting a plain text (readable format) into a cipher text (unreadable format) using a key or an encryption scheme.</td></tr>
+<tr><td>Endpoint</td><td>This connects a sandbox to a network and abstracts the actual connection to the network from the application.</td></tr>
+<tr><td>Enterprise Information Security Policy (EISP)</td><td>EISP drives an organization’s scope and provides direction to their security policies.</td></tr>
+<tr><td>Enterprise Mobility Management (EMM)</td><td>EMM consists of tools and technologies used in an organization to secure the data in employees’ personal (BYOD) and organizational devices.</td></tr>
+<tr><td>Explicit Authorization</td><td>An explicit authorization maintains separate authorization details for each resource request.</td></tr>
+<tr><td>Fabric Virtualization</td><td>This level of virtualization makes the virtual devices independent of the physical computer hardware.</td></tr>
+<tr><td>Face Recognition</td><td>Compares and identifies a person on the basis of the facial features from an image or a video source.</td></tr>
+<tr><td>False Negative (Attack – No Alert)</td><td>A false negative is a condition that occurs when an IDS fails to react to an actual attack event.</td></tr>
+<tr><td>False Positive (No attack – Alert)</td><td>A false positive occurs if an event triggers an alarm when no actual attack is in progress.</td></tr>
+<tr><td>Fences/Electric fences/Metal Rails</td><td>Fences/metal rails/electric fences generally mark the restricted areas, controlled areas and prevents unauthorized access.</td></tr>
+<tr><td>File System Virtualization</td><td>This refers to the virtualization of data at the level of the file system.</td></tr>
+<tr><td>File-Level Encryption</td><td>Encryption of data stored in files/folders.</td></tr>
+<tr><td>Fingerprint Scanning</td><td>Compares two fingerprints for verification and identification on the basis of the patterns on the finger.</td></tr>
+<tr><td>Firewall</td><td>Firewall is a software or hardware, or a combination of both, which is generally used to separate a protected network from an unprotected public network.</td></tr>
+<tr><td>Freedom of Information Act (FOIA)</td><td>The Freedom of Information Act (FOIA) has provided the public the right to request access to records from any federal agency.</td></tr>
+<tr><td>Frequency-Hopping Spread Spectrum (FHSS)</td><td>FHSS, also known as frequency-hopping code-division multiple access (FH-CDMA), is a method of transmitting radio signals by rapidly switching a carrier among many frequency channels.</td></tr>
+<tr><td>Full Data Backup</td><td>This is also called a normal backup. It copies all files and compresses them to save space.</td></tr>
+<tr><td>Full Device Encryption</td><td>Full disk encryption is a security feature that can encrypt all the information stored on any storage medium within a mobile device.</td></tr>
+<tr><td>Full Mesh VPN Topology</td><td>In a fully meshed VPN network, all peers can communicate with each other, making it a complex network.</td></tr>
+<tr><td>Full Virtualization</td><td>In this type of virtualization, the guest OS is not aware that it is running in a virtualized environment.</td></tr>
+<tr><td>Function-as-a-Service (FaaS)</td><td>This cloud computing service provides a platform for developing, running, and managing application functionalities without the complexity of building and maintaining necessary infrastructure.</td></tr>
+<tr><td>General Data Protection Regulation (GDPR)</td><td>The GDPR will levy harsh fines against those who violate its privacy and security standards, with penalties reaching tens of millions of euros.</td></tr>
+<tr><td>Geofencing</td><td>Geofencing is a technique through which mobile-application marketers utilize the location of the user to gather information.</td></tr>
+<tr><td>Geolocation</td><td>Geolocation is a technology that can identify the real-world geographical location of users or devices when connected to the Internet.</td></tr>
+<tr><td>Global Positioning System (GPS)</td><td>GPS is a radio navigation and positioning system based on satellite communication.</td></tr>
+<tr><td>Global System for Mobile Communications (GSM)</td><td>It is a universal system used for mobile data transmission in wireless networks worldwide.</td></tr>
+<tr><td>Government Access to Keys (GAK)</td><td>GAK refers to the statutory obligation of individuals and organizations to disclose their cryptographic keys to government agencies.</td></tr>
+<tr><td>Gramm-Leach-Bliley Act (GLBA)</td><td>The Gramm-Leach-Bliley Act (GLB Act or GLBA) is a United States federal law that requires financial institutions to explain how they share and protect their customers’ private information.</td></tr>
+<tr><td>Guest Machine</td><td>Independent instance of an operating system created by virtual machine monitor.</td></tr>
+<tr><td>Hardware Firewalls</td><td>A hardware firewall is either a dedicated stand-alone hardware device or it comes as part of a router.</td></tr>
+<tr><td>Hardware VPNs</td><td>A dedicated hardware VPN appliance is used to connect routers and gateways to ensure communication over an insecure channel.</td></tr>
+<tr><td>Hash-based Message Authentication Code (HMAC)</td><td>HMAC is a type of message authentication code (MAC) that uses a cryptographic key along with a cryptographic hash function.</td></tr>
+<tr><td>Health Insurance Portability and Accountability Act (HIPAA)</td><td>The HIPAA Privacy Rule provides federal protections for the individually identifiable health information held by covered entities and their business associates and gives patients an array of rights to that information.</td></tr>
+<tr><td>High-Interaction Honeypots</td><td>High-interaction honeypots do not emulate anything; they run actual vulnerable services or software on production systems with real OS and applications</td></tr>
+<tr><td>Honeynets</td><td>Honeynets are networks of honeypots. They are very effective in determining the entire capabilities of the adversaries.</td></tr>
+<tr><td>Honeypot</td><td>A honeypot is an information system resource that is expressly set up to attract and trap people who attempt to penetrate an organization’s network.</td></tr>
+<tr><td>Host Intrusion Detection Systems (HIDS)</td><td>HIDS is installed on a specific host and is used to monitor, detect, and analyze events occurring on that host.</td></tr>
+<tr><td>Host Machine</td><td>Real physical machine that provides computing resources to support virtual machines.</td></tr>
+<tr><td>Host-based Firewalls</td><td>The host-based firewall is used to filter inbound/outbound traffic of an individual computer on which it is installed.</td></tr>
+<tr><td>Hot Backup (Online)</td><td>It is also called as dynamic backup or active backup. In a hot backup, the system continues to perform the backup even when the user is accessing the system.</td></tr>
+<tr><td>Hotspot</td><td>These are places where wireless networks are available for public use.</td></tr>
+<tr><td>Hub-and-Spoke VPN Topology</td><td>In hub-and-spoke technology, the main organization is considered the hub, and its remote offices are considered the spokes.</td></tr>
+<tr><td>Hybrid Cloud</td><td>Combination of two or more clouds (private, community, or public) that remain unique entities but are bound together, thereby offering the benefits of multiple deployment models.</td></tr>
+<tr><td>Hybrid Intrusion Detection Systems (Hybrid IDS)</td><td>A hybrid IDS is a combination of both HIDS and NIDS.</td></tr>
+<tr><td>Hybrid VPNs</td><td>Hybrid VPNs are those with trusted VPNs as part of the secure VPNs. They implement different network components of an organization at the same time in order to confirm security at very low costs.</td></tr>
+<tr><td>Hybrid Virtualization</td><td>In this type of virtualization, the guest OS adopts the functionality of para virtualization and uses the VMM for binary translation to different types of hardware resources.</td></tr>
+<tr><td>Hypertext Transfer Protocol Secure (HTTPS)</td><td>HTTPS ensures secure communication between two computers over HTTP.</td></tr>
+<tr><td>Hypervisor</td><td>An application or firmware that enables multiple guest operating systems to share a host’s hardware resources.</td></tr>
+<tr><td>IDE</td><td>Integrated drive electronics (IDE) allows the connection of two devices per channel. It is normally used for internal devices as the cables are large and flat.</td></tr>
+<tr><td>IPsec Server</td><td>The IPsec server enhances VPN security through the use of strong encryption algorithms and authentication.</td></tr>
+<tr><td>ISM band</td><td>A set of frequencies for the international industrial, scientific, and medical communities.</td></tr>
+<tr><td>Identity and Access Management (IAM)</td><td>Identity and access management (IAM) is responsible for providing the right individual with the right access at the right time.</td></tr>
+<tr><td>Identity-as-a-Service (IdaaS)</td><td>This cloud computing service offers authentication services to the subscribed enterprises and is managed by a third-party vendor to provide identity and access management services.</td></tr>
+<tr><td>Implicit Authorization</td><td>Implicit authorization provides access to the resources indirectly.</td></tr>
+<tr><td>Incremental Data Backup</td><td>Only files that have been changed or created after the last backup are copied to the backup media.</td></tr>
+<tr><td>Industrial, Scientific, and Medical (ISM) band</td><td>This band is a set of frequencies used by the international industrial, scientific, and medical communities.</td></tr>
+<tr><td>Information Assurance (IA) Principles</td><td>Information assurance (IA) principles act as enablers for an organization’s security activities to protect and defend its network from security attacks.</td></tr>
+<tr><td>Informational Traffic Signature</td><td>Traffic containing certain signatures that may appear suspicious but might not be malicious.</td></tr>
+<tr><td>Infrared (IR)</td><td>IR is a wireless technology for transferring data between two devices in the digital form within a short range of up to 5 m.</td></tr>
+<tr><td>Infrastructure Network Topology</td><td>Devices in the wireless network are connected through an AP.</td></tr>
+<tr><td>Infrastructure-as-a-Service (IaaS)</td><td>Provides virtual machines and other abstracted hardware and operating systems which may be controlled through a service API.</td></tr>
+<tr><td>Integrity</td><td>Ensures information is not modified or tampered with by unauthorized parties.</td></tr>
+<tr><td>Internal Bastion Host</td><td>It can be single-homed or multi-homed bastion hosts.</td></tr>
+<tr><td>Internet Protocol Security (IPsec)</td><td>IPsec is a network layer protocol that ensures a secure IP level communication.</td></tr>
+<tr><td>Internet of Things (IoT)</td><td>IoT also known as the Internet of Everything (IoE), refers to computing devices that are web-enabled and have the capability of sensing, collecting, and sending data using sensors, and the communication hardware and processors.</td></tr>
+<tr><td>Interval-based IDS</td><td>Interval-based or offline analysis refers to the storage of the intrusion-related information for further analysis.</td></tr>
+<tr><td>Intrusion Detection and Prevention System (IDS/IPS)</td><td>An intrusion detection and prevention system (IDS/IPS) is a network security appliance that inspects all inbound and outbound network traffic for suspicious patterns that might indicate a network or system security breach.</td></tr>
+<tr><td>IoT Device Management</td><td>IoT device management helps security professionals to track, monitor, and manage physical IoT devices from a remote location.</td></tr>
+<tr><td>IoT User Management</td><td>Provide control over the users who have access to an IoT system.</td></tr>
+<tr><td>Iris Scanning</td><td>Analyzes the colored part of the eye suspended behind the cornea.</td></tr>
+<tr><td>Issue Specific Security Policy (ISSP)</td><td>ISSP directs the audience on the usage of technology-based systems with the help of guidelines.</td></tr>
+<tr><td>Kerberos</td><td>Kerberos is a network authentication protocol that is implemented for authenticating requests in computer networks.</td></tr>
+<tr><td>Kubernetes</td><td>Kubernetes, also known as K8s, is an open-source, portable, extensible, orchestration platform developed by Google for managing containerized applications and micro services.</td></tr>
+<tr><td>LEAP</td><td>Lightweight EAP (LEAP) is a proprietary version of EAP developed by Cisco.</td></tr>
+<tr><td>Lighting System</td><td>Adequate lighting should be provided inside, outside, and at the entrance of the building which helps in seeing long distances during security patrols.</td></tr>
+<tr><td>Logical Segmentation</td><td>Logical segmentation utilizes VLANs, which are isolated logically without considering the physical locations of devices.</td></tr>
+<tr><td>Low-interaction Honeypots</td><td>Low-interaction honeypots emulate only a limited number of services and applications of a target system or network.</td></tr>
+<tr><td>MD5</td><td>The MD5 algorithm takes a message of arbitrary length as the input and then outputs a 128-bit fingerprint or message digest of the input.</td></tr>
+<tr><td>MD6</td><td>MD6 uses a Merkle-tree-like structure to allow for large-scale parallel computation of hashes for very long inputs.</td></tr>
+<tr><td>Malware Honeypots</td><td>Malware honeypots are used to trap malware campaigns or malware attempts over the network infrastructure.</td></tr>
+<tr><td>Management Console</td><td>Interface used to access, configure, and manage the virtualization product.</td></tr>
+<tr><td>Management Server</td><td>Virtualization platform components used to directly manage the virtual machines and to simplify the administration of resources.</td></tr>
+<tr><td>Mandatory Access Control (MAC)</td><td>The MAC determines the usage and access policies for the users.</td></tr>
+<tr><td>Mantrap</td><td>It is a security system having an entry and exit door on opposite sides, separating non-secure area from secure area.</td></tr>
+<tr><td>Mechanical Locks</td><td>Provide an easy method to restrict unauthorized access in an organization.</td></tr>
+<tr><td>Medium-interaction Honeypots</td><td>Medium-interaction honeypots simulate a real OS as well as applications and services of a target network.</td></tr>
+<tr><td>Mobile Application Management (MAM)</td><td>Mobile application management (MAM) is a software or service that enables network defenders to secure, manage, and distribute enterprise applications on employee mobile devices.</td></tr>
+<tr><td>Mobile Content Management (MCM)</td><td>Mobile content management (MCM) or mobile information management (MIM) solutions provide secure access to corporate data on smartphones, tablets, and other mobile devices.</td></tr>
+<tr><td>Mobile Device Management (MDM)</td><td>MDM provides platforms for over-the-air or wired distribution of applications, data, and configuration settings for all types of mobile devices, including mobile phones, smartphones, and tablet computers.</td></tr>
+<tr><td>Mobile Email Management (MEM)</td><td>Mobile email management (MEM) solutions ensures the security of the corporate email infrastructure and data.</td></tr>
+<tr><td>Mobile Security Management</td><td>Mobile security management involves actions and precautionary steps for securing the organizational data and mobile devices used by employees.</td></tr>
+<tr><td>Multi Cloud</td><td>It is a dynamic heterogeneous environment that combines workloads across multiple cloud vendors that are managed via one proprietary interface to achieve long-term business goals.</td></tr>
+<tr><td>Multi-homed Bastion Host</td><td>A firewall device with at least two network interfaces.</td></tr>
+<tr><td>Multi-layer Security</td><td>Involves preventing unauthorized access to IoT things by using multi-factor authentication (MFA), Transport Layer Security (TLS), device identity management, etc.</td></tr>
+<tr><td>Multiple Input, Multiple output Orthogonal Frequency-division Multiplexing (MIMO-OFDM)</td><td>An air interface for 4G and 5G broadband wireless communications.</td></tr>
+<tr><td>Multiport Memory Controller</td><td>An MPMC provides access to memory for up to eight ports. A memory controller can be present as a separate chip or as an integrated memory.</td></tr>
+<tr><td>NAND Flash Memory</td><td>Provides a non-volatile storage for the RAID system’s primary cache.</td></tr>
+<tr><td>Near-field Communication (NFC)</td><td>NFC covers very short distances. It employs electromagnetic induction to enable communication between devices connected within 10 cm.</td></tr>
+<tr><td>Network Access Controls</td><td>Network access controls offer various access control mechanisms for network devices like routers and switches.</td></tr>
+<tr><td>Network Access Server (NAS)</td><td>It is also called a media gateway or a remote-access server (RAS). It is responsible for setting up and maintaining each tunnel in a remote-access VPN.</td></tr>
+<tr><td>Network Address Translation (NAT)</td><td>Network address translation separates IP addresses into two sets and enables the LAN to use these addresses for internal and external traffic, respectively.</td></tr>
+<tr><td>Network Attached Storage (NAS)</td><td>NAS is a file-based data storage service and a dedicated computer appliance shared over the network.</td></tr>
+<tr><td>Network Defense Essentials (NDE)</td><td>Network Defense Essentials (NDE) is a security program covering the fundamental concepts of network security.</td></tr>
+<tr><td>Network Defense</td><td>The ultimate goal of network defense is to protect an organization’s information, systems, and network infrastructure from unauthorized access, misuse, modification, service denial, or any degradation and disruptions.</td></tr>
+<tr><td>Network Drivers</td><td>These are pluggable and provide the actual implementation for the functioning of the network.</td></tr>
+<tr><td>Network Intrusion Detection System (NIDS)</td><td>NIDS is used to observe the traffic for any specific segment or device and recognize the occurrence of any suspicious activity in the network and application protocols.</td></tr>
+<tr><td>Network Packets</td><td>A network packet is a unit of data transmitted over a network for communication.</td></tr>
+<tr><td>Network Security Controls</td><td>Network security controls are the security features that should be appropriately configured and implemented to ensure network security.</td></tr>
+<tr><td>Network Security Devices</td><td>Network security appliances are devices that are deployed to protect computer networks from unwanted traffic and threats.</td></tr>
+<tr><td>Network Security Protocols</td><td>Network security protocols implement security related operations to ensure the security and integrity of data in transit.</td></tr>
+<tr><td>Network Segmentation</td><td>Network segmentation is the practice of splitting a network into smaller network segments and separating groups of systems or applications from each other.</td></tr>
+<tr><td>Network Sensors</td><td>Network sensors are hardware and software components that monitor network traffic and trigger alarms if any abnormal activity is detected.</td></tr>
+<tr><td>Network Traffic Monitoring</td><td>Network monitoring is a retrospective security approach that involves monitoring a network for abnormal activities, performance issues, bandwidth issues, etc.</td></tr>
+<tr><td>Network Traffic Signatures</td><td>A signature is a set of traffic characteristics such as a source/destination IP address, ports, Transmission Control Protocol (TCP) flags, packet length, time to live (TTL), and protocols. Signatures are used to define the type of activity on a network.</td></tr>
+<tr><td>Network Virtualization</td><td>Network virtualization is a process of combining all the available network resources and enabling security professionals to share these resources amongst the network users using a single administrative unit.</td></tr>
+<tr><td>Network</td><td>A network is a collection of endpoints that have connectivity between them.</td></tr>
+<tr><td>Network-based Firewalls</td><td>The network-based firewall is used to filter inbound/outbound traffic from Internal LAN.</td></tr>
+<tr><td>Next Generation Firewall (NGFW)</td><td>NGFW firewall technology is third-generation firewall technology that moves beyond port/protocol inspection.</td></tr>
+<tr><td>Non-Repudiation</td><td>Ensures that a party in a communication cannot deny sending the message.</td></tr>
+<tr><td>Non-routing Dual-homed Hosts</td><td>This type of the host is completely a firewall, or it might be a component of a multi-faceted firewall.</td></tr>
+<tr><td>Non-transparent Proxy</td><td>Non-transparent proxies are also known as explicit proxies and require client software to be configured to use the proxy server.</td></tr>
+<tr><td>Normal Traffic Signatures</td><td>Acceptable traffic patterns allowed to enter the network.</td></tr>
+<tr><td>nvSRAM</td><td>nvSRAM is the fastest nonvolatile RAM in the industry with 20 ns read and write access time.</td></tr>
+<tr><td>OS Assisted Virtualization or Para Virtualization</td><td>In this type of virtualization, the guest OS is aware of the virtual environment in which it is running and communicates with the host machine to request for resources.</td></tr>
+<tr><td>OS Containers</td><td>OS containers are virtual environments sharing the kernel of the host environment that provides them isolated user space.</td></tr>
+<tr><td>Object</td><td>An object is an explicit resource on which an access restriction is imposed.</td></tr>
+<tr><td>Offsite Data Backup</td><td>Storing backup data in remote locations in fire-proof, indestructible safes.</td></tr>
+<tr><td>Omnidirectional Antenna</td><td>Omnidirectional antennas radiate electromagnetic (EM) energy in all directions.</td></tr>
+<tr><td>Onsite Data Backup</td><td>Storing backup data at onsite data storage only.</td></tr>
+<tr><td>Open System Authentication</td><td>Open system authentication is a null authentication algorithm that does not verify whether it is a user or a machine requesting network access.</td></tr>
+<tr><td>Operating System Virtualization</td><td>This type of virtualization enables the hardware to execute multiple operating systems simultaneously.</td></tr>
+<tr><td>Operation</td><td>An operation is an action performed by a subject on an object.</td></tr>
+<tr><td>Orthogonal Frequency-Division Multiplexing (OFDM)</td><td>Method of encoding digital data on multiple carrier frequencies.</td></tr>
+<tr><td>PEAP</td><td>It is a protocol that encapsulates the EAP within an encrypted and authenticated Transport Layer Security (TLS) tunnel.</td></tr>
+<tr><td>Packet Filtering Firewall</td><td>Packet filtering firewalls work at the network level of the OSI model (or the IP layer of TCP/IP).</td></tr>
+<tr><td>Packet Filters</td><td>Packet filters examine the routing information of the packet.</td></tr>
+<tr><td>Parabolic Grid Antenna</td><td>A parabolic grid antenna uses the same principle as a satellite dish, but it does not have a solid dish. It consists of a semi-dish in the form of a grid consisting of aluminum wires.</td></tr>
+<tr><td>Paranoid Policy</td><td>A paranoid policy forbids everything. There is a strict restriction on all company computers, whether it is system or network usage.</td></tr>
+<tr><td>Password Authentication</td><td>Password Authentication uses a combination of a username and a password to authenticate the network users.</td></tr>
+<tr><td>Password Blacklist</td><td>A password blacklist contains a list of words that are prohibited from use as passwords because of their familiarity.</td></tr>
+<tr><td>Password Policy</td><td>Password policy provides guidelines for using strong passwords for an organization’s resources.</td></tr>
+<tr><td>Passwords and PINs</td><td>Passwords and PINs are basic security features used in all mobile devices.</td></tr>
+<tr><td>Payment Card Industry Data Security Standard (PCI-DSS)</td><td>PCI-DSS is a proprietary information security standard for organizations that handle cardholder information for major debit, credit, prepaid, e-purse, ATM, and POS cards.</td></tr>
+<tr><td>Permissive Policy</td><td>This policy is wide open, and only known dangerous services/attacks or behaviors are blocked.</td></tr>
+<tr><td>Physical Barriers</td><td>Physical barriers restrict unauthorized people from entering the building; always use a combination of barriers to deter unauthorized entry.</td></tr>
+<tr><td>Physical Security Controls</td><td>Physical security controls provide physical protection of the information, buildings, and all other physical assets of an organization.</td></tr>
+<tr><td>Physical Security Policy</td><td>Physical security policy defines guidelines to ensure that adequate physical security measures are in place.</td></tr>
+<tr><td>Physical Security</td><td>It deals with restricting unauthorized physical access to the infrastructure, office premises, workstations, and employees of the organization.</td></tr>
+<tr><td>Physical Segmentation</td><td>Physical segmentation is a process of splitting a larger network into smaller physical components.</td></tr>
+<tr><td>Platform-as-a-Service (PaaS)</td><td>This cloud computing service offers development tools, configuration management, and deployment platforms on-demand that can be used by subscribers to develop custom applications.</td></tr>
+<tr><td>Point-to-Point VPN Topology</td><td>In a point-to-point topology, any two endpoints are considered as peer devices which can communicate with each other. Any of the devices can be used to initiate the connection.</td></tr>
+<tr><td>Point-to-multipoint Connection</td><td>A point-to-multipoint (P2MP, PTMP, and PMP) connection allows one-to-many connections by providing multiple paths from a single location to several other locations.</td></tr>
+<tr><td>Point-to-point (P2P) Connection</td><td>A P2P connection enables secure communication between two mobile devices without data encryption.</td></tr>
+<tr><td>Policies</td><td>Policies are high-level statements dealing with the administrative network security of an organization.</td></tr>
+<tr><td>Pretty Good Privacy (PGP)</td><td>Pretty good privacy (PGP) is an application layer protocol which provides cryptographic privacy and authentication for network communication.</td></tr>
+<tr><td>Prevention Controls</td><td>These are used to prevent unwanted or unauthorized access to resources.</td></tr>
+<tr><td>Preventive Approach</td><td>Consist of methods or techniques that are used to avoid threats or attacks on the target network.</td></tr>
+<tr><td>Preventive Controls</td><td>These controls prevent security violations and enforce various access control mechanisms.</td></tr>
+<tr><td>Primary RAID Memory Cache</td><td>Cache is used to write the data in transition. A RAID system uses a cache to speed up I/O performance on the storage system.</td></tr>
+<tr><td>Principle of Least Privilege (POLP)</td><td>The principle of least privilege (POLP) extends the need-to-know principle in providing access to a system.</td></tr>
+<tr><td>Private Cloud</td><td>A private cloud is a cloud infrastructure operated by a single organization and implemented within a corporate firewall.</td></tr>
+<tr><td>Proactive Approaches</td><td>Consist of methods or techniques that are used to make informed decisions on potential attacks in the future on the target network.</td></tr>
+<tr><td>Process Layer</td><td>The process layer gathers information and processes the received information.</td></tr>
+<tr><td>Production Honeypots</td><td>Production honeypots are deployed inside the production network of the organization along with other production servers.</td></tr>
+<tr><td>Promiscuous Policy</td><td>This policy does not impose any restrictions on the usage of system resources.</td></tr>
+<tr><td>Protocol Anomaly Detection</td><td>Protocol anomaly detection depends on the anomalies specific to a protocol.</td></tr>
+<tr><td>Proxy Servers</td><td>A proxy server is an application that can serve as an intermediary when connecting with other computers.</td></tr>
+<tr><td>Prudent Policy</td><td>A prudent policy starts with all services blocked. The Network defender enables safe and necessary services individually.</td></tr>
+<tr><td>Public Cloud</td><td>The provider makes services such as applications, servers, and data storage available to the public over the Internet.</td></tr>
+<tr><td>Public Key Infrastructure (PKI)</td><td>A public key infrastructure (PKI) is a security architecture developed for increasing the confidentiality of the information exchanged over the Internet.</td></tr>
+<tr><td>Pure Honeypots</td><td>Pure honeypots emulate the real production network of a target organization.</td></tr>
+<tr><td>Push Notification Services</td><td>It is a messaging feature that originates from a server and enables the delivery of data or a message from an application to a mobile device without any explicit request from the user.</td></tr>
+<tr><td>RADIUS</td><td>Remote authentication dial-in user service (RADIUS) is an authentication protocol which provides centralized authentication, authorization, and accounting (AAA) for remote access servers to communicate with a central server.</td></tr>
+<tr><td>RAID Controller</td><td>Manages an array of physical disk drives and presents them to the computer as logical units.</td></tr>
+<tr><td>RAID Level 0</td><td>Disk Striping: RAID 0 deals with data performance. In this level, data is broken into sections and written across multiple drives.</td></tr>
+<tr><td>RAID Level 1</td><td>Disk Mirroring: Multiple copies of data are written to multiple drives at the same time.</td></tr>
+<tr><td>RAID Level 10</td><td>Blocks Striped and Mirrored: RAID 10 is a combination of RAID 0 (striping volume data) and RAID 1 (disk mirroring), and its implementation requires at least four drives.</td></tr>
+<tr><td>RAID Level 3</td><td>Disk Striping with Parity: Data is striped at the byte level across multiple drives. One drive per set is taken up for parity information.</td></tr>
+<tr><td>RAID Level 5</td><td>Block Interleaved Distributed Parity: The data is striped at the byte level across multiple drives, and the parity information is distributed among all the member drives.</td></tr>
+<tr><td>RAID Level 50</td><td>Mirroring and Striping across Multiple RAID Levels: RAID level 50 includes mirroring and striping across multiple RAID levels.</td></tr>
+<tr><td>RC4</td><td>RC4 is a variable key-size symmetric-key stream cipher with byte-oriented operations, and it is based on the use of a random permutation.</td></tr>
+<tr><td>RC5</td><td>It is a parameterized algorithm with a variable block size, variable key size, and variable number of rounds. The key size is 128 bits.</td></tr>
+<tr><td>RC6</td><td>It is a parameterized algorithm with a variable block size, key size, and number of rounds.</td></tr>
+<tr><td>RFID</td><td>The radio-frequency identification (RFID) technology uses radio frequency (RF) electromagnetic waves to transfer data for automatic identification and for tracking tags attached to objects.</td></tr>
+<tr><td>Reactive Approach</td><td>Consist of methods or techniques that are used to detect attacks on the target network.</td></tr>
+<tr><td>Real-time Analytics</td><td>Real-time analytics involves analyzing IoT things and taking steps accordingly.</td></tr>
+<tr><td>Real-time Monitoring</td><td>Real-time monitoring involves monitoring IoT assets, processing products, maintaining a flow, helping detect issues, and taking actions immediately.</td></tr>
+<tr><td>Real-time–based IDS</td><td>Real-time–based IDS gathers and monitors information from network traffic streams regularly.</td></tr>
+<tr><td>Reconnaissance Traffic Signatures</td><td>Reconnaissance traffic consists of signatures that indicate an attempt to scan the network for possible weaknesses.</td></tr>
+<tr><td>Recovery Controls</td><td>These controls are used in a more serious condition to recover from security violation and restore information and systems to a persistent state.</td></tr>
+<tr><td>Redundant Array of Independent Disks (RAID) Technology</td><td>A method of combining multiple hard drives into a single unit and writing data across several disk drives, offering fault tolerance.</td></tr>
+<tr><td>Reference Monitor</td><td>A reference monitor monitors the restrictions imposed on the basis of certain access control rules.</td></tr>
+<tr><td>Reflector Antennas</td><td>Reflector antennas are used for concentrating electromagnetic energy that is radiated or received at a focal point.</td></tr>
+<tr><td>Registry</td><td>A registry contains all images that an organization deploys.</td></tr>
+<tr><td>Regulatory Frameworks</td><td>IT security regulatory frameworks contain a set of guidelines and best practices.</td></tr>
+<tr><td>Remote Wipe</td><td>Remote wipe is a technique used for securing and protecting data from miscreants if a mobile device used by an employee was stolen or lost.</td></tr>
+<tr><td>Removable Media Encryption</td><td>Removable media encryption prevents removable media devices from unauthorized access.</td></tr>
+<tr><td>Research Honeypots</td><td>Research honeypots are high-interaction honeypots primarily deployed by research institutes, governments, or military organizations to gain detailed knowledge about the actions of intruders.</td></tr>
+<tr><td>Response System</td><td>The response system issues countermeasures against any intrusion that is detected.</td></tr>
+<tr><td>Retinal Scanning</td><td>Analyzes the layer of blood vessels at the back of their eyes to identify a person.</td></tr>
+<tr><td>Retrospective Approaches</td><td>Consist of methods or techniques that examine the causes for attacks, and contain, remediate, eradicate, and recover from damage caused by the attack on the target network.</td></tr>
+<tr><td>Reverse Proxy</td><td>A reverse proxy is usually situated closer to the server(s) and will only return a configured set of resources.</td></tr>
+<tr><td>Rivest-Shamir-Adleman (RSA)</td><td>RSA is an Internet encryption and authentication system that uses an algorithm developed by Ron Rivest, Adi Shamir, and Leonard Adleman.</td></tr>
+<tr><td>Role-Based Access Control (RBAC)</td><td>In a role-based access control, the access permissions are available based on the access policies determined by the system.</td></tr>
+<tr><td>Rule-based Access Control (RB-RBAC)</td><td>Permissions are assigned to a user role dynamically based on a set of rules defined by the administrator.</td></tr>
+<tr><td>SATA</td><td>Serial ATA deals with hot plugging and serial connectivity. The hot plugging technique may be used to replace computer components without shutting down the system.</td></tr>
+<tr><td>SCSI</td><td>Small computer system interface (SCSI) allows multiple devices to be connected to a single port at the same time.</td></tr>
+<tr><td>SDRAM</td><td>Dynamic Random Access memory (DRAM) that is synchronized with the CPU clock speed.</td></tr>
+<tr><td>SHA-1</td><td>It produces a 160-bit digest from a message with a maximum length of (264 − 1) bits, and it resembles the MD5 algorithm.</td></tr>
+<tr><td>SHA-2</td><td>It is a family of two similar hash functions with different block sizes, namely, SHA-256, which uses 32-bit words, and SHA-512, which uses 64-bit words.</td></tr>
+<tr><td>SHA-3</td><td>SHA-3 uses the sponge construction, in which message blocks are XORed into the initial bits of the state, which is then invertibly permuted.</td></tr>
+<tr><td>SOCKS Proxy</td><td>SOCKS, an Internet Engineering Task Force (IETF) standard, is a proxy server that does not have the special caching abilities of a caching HTTP proxy server.</td></tr>
+<tr><td>Sandbox</td><td>This contains the configuration of a container’s network stack such as routing table, management of container’s interfaces, and DNS settings.</td></tr>
+<tr><td>Sarbanes Oxley Act (SOX)</td><td>The Sarbanes-Oxley Act is designed to protect investors and the public by increasing the accuracy and reliability of corporate disclosures.</td></tr>
+<tr><td>Satellite Communication (Satcom)</td><td>Satcom is an artificial geostationary satellite that provides services across the globe, but it is much slower.</td></tr>
+<tr><td>Screen Lock</td><td>Screen lock is a feature in mobile devices that is used to secure data and prevent illegal access by perpetrators.</td></tr>
+<tr><td>Secure Hashing Algorithm (SHA)</td><td>This algorithm generates a cryptographically secure one-way hash; it was published by the National Institute of Standards and Technology as a US Federal Information Processing Standard.</td></tr>
+<tr><td>Secure Hypertext Transfer Protocol (S-HTTP)</td><td>Secure hypertext transfer protocol (S-HTTP) is an application layer protocol that is used to encrypt web communications carried over HTTP.</td></tr>
+<tr><td>Secure Sockets Layer (SSL)</td><td>The secure sockets layer (SSL) is a protocol used for providing a secure authentication mechanism between two communicating applications such as a client and a server.</td></tr>
+<tr><td>Secure VPNs</td><td>Secure VPNs are networks constructed using encryption.</td></tr>
+<tr><td>Secure/Multipurpose Internet Mail Extensions (S/MIME)</td><td>S/MIME is an application layer protocol which is used for sending digitally signed and encrypted email messages.</td></tr>
+<tr><td>Security Incident and Event Management (SIEM)</td><td>SIEM performs real-time SOC (Security Operations Center) functions like identifying, monitoring, recording, auditing, and analyzing security incidents.</td></tr>
+<tr><td>Security Monitoring</td><td>To address security breaches at early stages and to prevent malicious attacks on an IoT system.</td></tr>
+<tr><td>Security Policy</td><td>A security policy is a well-documented set of plans, processes, procedures, standards, and guidelines required to establish an ideal information security status of an organization.</td></tr>
+<tr><td>Security-as-a-Service (SECaaS)</td><td>This cloud computing model integrates security services into corporate infrastructure in a cost-effective way.</td></tr>
+<tr><td>Separation of Duties (SoD)</td><td>This involves a breakdown of the authorization process into various steps.</td></tr>
+<tr><td>Server Virtualization</td><td>This involves the logical partitioning of the server’s hard drive.</td></tr>
+<tr><td>Service Set identifier (SSID)</td><td>An SSID is a 32-alphanumeric-character unique identifier given to a WLAN that acts as a wireless identifier of the network.</td></tr>
+<tr><td>Shared Key Authentication</td><td>In this process, each wireless station receives a shared secret key over a secure channel that is distinct from the 802.11 wireless network communication channels.</td></tr>
+<tr><td>Shared Responsibility</td><td>Security is a shared responsibility in cloud systems, wherein the cloud consumers and cloud service providers have varying levels of control over the available computing resources.</td></tr>
+<tr><td>Signature Recognition</td><td>Signature recognition, also known as misuse detection, tries to identify events that indicate an abuse of a system or network resource.</td></tr>
+<tr><td>Simple Network Management Protocol (SNMP) Polling</td><td>Simple network management protocol (SNMP) polling is used for identifying the IP devices attached to a wired network.</td></tr>
+<tr><td>Single Firewall DMZ</td><td>In this model, the network architecture containing the DMZ consists of three network interfaces.</td></tr>
+<tr><td>Single Sign-on (SSO) Authentication</td><td>It allows the users to access multiple applications using a single username and password.</td></tr>
+<tr><td>Single-homed Bastion Host</td><td>A firewall device with only one network interface.</td></tr>
+<tr><td>Site-to-Site VPNs</td><td>Site-to-site VPN extends the company's network, allows access of an organization's network resources from different locations.</td></tr>
+<tr><td>Smart Card Authentication</td><td>A smart card consists of a small computer chip that stores personal information of the user for identification.</td></tr>
+<tr><td>Software Firewalls</td><td>A software firewall is a software program installed on a computer, just like normal software.</td></tr>
+<tr><td>Software VPNs</td><td>VPN software is installed and configured on routers, servers and firewalls or as a gateway that functions as a VPN.</td></tr>
+<tr><td>Software-as-a-Service (SaaS)</td><td>This cloud computing service offers software to subscribers on-demand over the Internet.</td></tr>
+<tr><td>Spam Honeypots</td><td>Spam honeypots specifically target spammers who abuse vulnerable resources such as open mail relays and open proxies.</td></tr>
+<tr><td>Spider Honeypots</td><td>Spider honeypots are also called spider traps. These honeypots are specifically designed to trap web crawlers and spiders.</td></tr>
+<tr><td>Standards</td><td>Standards comprise specific low-level mandatory controls or controls related to the implementation of a specific technology.</td></tr>
+<tr><td>Star Topology</td><td>Each device on the network is connected to a central hub that manages the traffic through the network.</td></tr>
+<tr><td>Stateful Multilayer Inspection Firewall</td><td>A stateful multilayer inspection firewall combines the aspects of the other three types.</td></tr>
+<tr><td>Storage Area Network (SAN)</td><td>A SAN is a specialized, dedicated, and discrete high-speed network that connects storage devices with a high speed I/O interconnect.</td></tr>
+<tr><td>Storage Device Virtualization</td><td>This is the virtualization of storage devices using techniques such as data striping and data mirroring.</td></tr>
+<tr><td>Subject</td><td>A subject can be defined as a user or a process that attempts to access the objects.</td></tr>
+<tr><td>Symmetric Encryption</td><td>Symmetric encryption requires that both the sender and the receiver of the message possess the same encryption key.</td></tr>
+<tr><td>System Access Controls</td><td>System access controls are used for the restriction of access to data according to sensitivity of data, clearance level of users, user rights, and permissions.</td></tr>
+<tr><td>System Specific Security Policy (SSSP)</td><td>SSSP directs users while configuring or maintaining a system.</td></tr>
+<tr><td>TACACS+</td><td>TACACS+ provides authentication, authorization, and accounting (AAA) services for network communication.</td></tr>
+<tr><td>TKIP</td><td>It is a security protocol used in WPA as a replacement for WEP.</td></tr>
+<tr><td>Technical Security Controls</td><td>Technical security controls are used for restricting access to devices in an organization to protect the integrity of sensitive data.</td></tr>
+<tr><td>The Digital Millennium Copyright Act (DMCA)</td><td>The DMCA is a United States copyright law that implements two 1996 treaties of the World Intellectual Property Organization (WIPO).</td></tr>
+<tr><td>The Electronic Communications Privacy Act</td><td>The Electronic Communications Privacy Act and the Stored Wire Electronic Communications Act are commonly referred together as the Electronic Communications Privacy Act (ECPA) of 1986.</td></tr>
+<tr><td>The Federal Information Security Management Act (FISMA)</td><td>The FISMA provides a comprehensive framework for ensuring the effectiveness of information security controls over information resources that support Federal operations and assets.</td></tr>
+<tr><td>The Freedom of Information Act 2000</td><td>This Act makes provision for the disclosure of information held by public authorities or by persons providing services for them and to amend the Data Protection Act 1998 and the Public Records Act 1958.</td></tr>
+<tr><td>The Human Rights Act 1998</td><td>This Act buttresses the rights and freedoms guaranteed under the European Convention on Human Rights.</td></tr>
+<tr><td>Transparent Proxy</td><td>A transparent proxy is a proxy through which a client system connects to a server without its knowledge.</td></tr>
+<tr><td>Transport Layer Security (TLS)</td><td>TLS ensures a secure communication between client-server applications over the internet.</td></tr>
+<tr><td>True Negative (No attack - No Alert)</td><td>A true negative is a condition that occurs when an IDS identifies an activity as acceptable behavior, and the activity is acceptable.</td></tr>
+<tr><td>True Positive (Attack - Alert)</td><td>A true positive is a condition that occurs when an event triggers an alarm and causes the IDS to react as if a real attack is in progress.</td></tr>
+<tr><td>Turnstiles</td><td>This type of physical barrier allows entry to only one person at a time.</td></tr>
+<tr><td>Two-factor Authentication</td><td>Two-factor authentication is a process where a system confirms the user identification in two steps.</td></tr>
+<tr><td>USA Patriot Act 2001</td><td>The purpose of the USA PATRIOT Act is to deter and punish terrorist acts in the U.S. and around the world and enhance law enforcement investigatory tools.</td></tr>
+<tr><td>Unauthorized Access Traffic Signatures</td><td>Traffic containing certain signatures that indicate an attempt to gain unauthorized access.</td></tr>
+<tr><td>Universal Serial Bus (USB)</td><td>USB enables wired communication for devices. It can be used for power supply and serial data transmission between devices.</td></tr>
+<tr><td>User Behavior Analytics (UBA)</td><td>UBA is the process of tracking user behavior to detect malicious attacks, potential threats, and financial fraud.</td></tr>
+<tr><td>User Identity Management (IDM)</td><td>Deals with confirming the identity of a user, process, or device accessing the network.</td></tr>
+<tr><td>VPN Concentrators</td><td>A VPN Concentrator is a network device used to create secure VPN connections.</td></tr>
+<tr><td>VPN Topologies</td><td>A VPN topology specifies how the peers and networks within a VPN are connected.</td></tr>
+<tr><td>Vein Structure Recognition</td><td>Analyzes thickness and location of veins to identify a person.</td></tr>
+<tr><td>Video Surveillance</td><td>Video surveillance refers to monitoring activities in and around the premises using CCTV (Close Circuit Television) systems.</td></tr>
+<tr><td>Virtual Private Network</td><td>A VPN is a private network constructed using public networks, such as the Internet.</td></tr>
+<tr><td>Virtualization</td><td>Virtualization refers to a software-based virtual representation of an IT infrastructure that includes network, devices, applications, storage, etc.</td></tr>
+<tr><td>Voice Recognition</td><td>Compares and identifies a person on the basis of the voice patterns or speech patterns.</td></tr>
+<tr><td>WLAN</td><td>It connects users in a local area with a network. The area may range from a single room to an entire campus.</td></tr>
+<tr><td>WMAN</td><td>It accesses broadband area networks by using an exterior antenna. It is a good alternative for a fixed-line network.</td></tr>
+<tr><td>WPA2 Enterprise</td><td>Integrates EAP standards with WPA2 encryption.</td></tr>
+<tr><td>WPA2</td><td>WPA2 is an upgrade to WPA, and it includes mandatory support for counter mode with cipher block chaining message authentication code protocol (CCMP), an AES-based encryption mode with strong security.</td></tr>
+<tr><td>WPA3</td><td>WPA3 is an advanced implementation of WPA2 providing trailblazing protocols and uses the AES-GCMP 256 encryption algorithm.</td></tr>
+<tr><td>WPAN</td><td>It interconnects devices positioned around an individual, in which the connections are wireless. It has a very short range.</td></tr>
+<tr><td>WWAN</td><td>WWAN covers an area larger than the WLAN. It can cover a particular region, nation, or even the entire globe.</td></tr>
+<tr><td>Warm Backup (Nearline)</td><td>A warm backup is also called a nearline backup. In a warm backup, the system updates are turned on to receive periodic updates.</td></tr>
+<tr><td>Warning Signs</td><td>Warning signs are used to ensure someone does not inadvertently intrude in any restricted areas.</td></tr>
+<tr><td>Wi-Fi Protected Access (WPA)</td><td>It is an advanced wireless encryption protocol using TKIP and Message Integrity Check (MIC) to provide strong encryption and authentication.</td></tr>
+<tr><td>Wi-Fi</td><td>It uses radio waves or microwaves to allow electronic devices to exchange data or connect to the Internet.</td></tr>
+<tr><td>WiMAX</td><td>The worldwide interoperability for microwave access (WiMAX) technology uses long distance wireless networking and high-speed Internet.</td></tr>
+<tr><td>Windows Information Protection (WIP)</td><td>WIP has an endpoint data loss prevention (DLP) capability that can be helpful in protecting local data at rest on endpoint devices.</td></tr>
+<tr><td>Wired Equivalent Privacy (WEP)</td><td>WEP is a security protocol defined by the 802.11b standard; it was designed to provide a wireless LAN with a level of security and privacy comparable to that of a wired LAN.</td></tr>
+<tr><td>Wired Network Scanning</td><td>Wired network scanners such as Nmap are used for identifying a large number of devices on a network by sending specially crafted TCP packets to the device (Nmap-TCP fingerprinting).</td></tr>
+<tr><td>Wireless Bridge</td><td>A wireless bridge connects multiple LANs at the medium access control (MAC) layer.</td></tr>
+<tr><td>Wireless Gateways</td><td>A wireless gateway is a key component of a wireless network. It is a device that allows Internet-enabled devices to access the network.</td></tr>
+<tr><td>Wireless Modem</td><td>A wireless modem is a device that allows PCs to connect to a wireless network and access the Internet connection directly with the help of an ISP.</td></tr>
+<tr><td>Wireless Network Cards (NIC)</td><td>Wireless network interface cards (NICs) are cards that locate and communicate to an AP with a powerful signal, giving network access to the users.</td></tr>
+<tr><td>Wireless Networks</td><td>Wireless networks use radio frequency (RF) signals to connect wireless-enabled devices in a network.</td></tr>
+<tr><td>Wireless Repeater (range expanders)</td><td>This device retransmits the existing signal captured from the wireless router or an AP to create a new network.</td></tr>
+<tr><td>Wireless Router</td><td>A wireless router is a device in a WLAN which interconnects two types of networks using radio waves to the wireless enabled devices such as computers, laptops, and tablets.</td></tr>
+<tr><td>Wireless Scanning</td><td>It performs an active wireless network scanning to detect the presence of wireless APs in the vicinity.</td></tr>
+<tr><td>Wireless USB Adapter</td><td>A wireless USB adapter connects different devices to a wireless network in order to access the Internet without a computer, router, or any other network device.</td></tr>
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
